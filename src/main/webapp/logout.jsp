@@ -10,6 +10,7 @@
 	<%
 		session.invalidate();//세션의 내용 모두 삭제->로그아웃
 	%>
-	<a href="loginCheck.jsp">로그인 확인 페이지 가기</a>
+	<a href="loginCheck.jsp">로그인 확인 페이지 가기</a><br><br>
+	<a href="login.jsp">로그인 페이지 가기</a>
 </body>
 </html>
